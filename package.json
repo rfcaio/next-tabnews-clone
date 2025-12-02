@@ -4,12 +4,17 @@
   "main": "index.js",
   "author": "Caio Rodrigues",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
+  "license": "MIT",
   "dependencies": {
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "prettier": "3.7.3"
+  }
 }
