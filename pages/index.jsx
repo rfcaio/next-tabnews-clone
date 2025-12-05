@@ -1,3 +1,3 @@
-const Home = () => <h1>Strength and honor.</h1>
+const Home = () => <h1>Welcome to TabNews!</h1>
 
 export default Home
