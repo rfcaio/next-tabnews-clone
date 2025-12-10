@@ -1,4 +1,4 @@
-import database from '../../../../infra/database'
+import database from 'infra/database'
 
 const status = async (_, res) => {
   await database.query('SELECT 1 + 1;')
